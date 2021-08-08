@@ -18,12 +18,12 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container , CardBody, Row, Col } from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/team-5-800x800.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -124,38 +124,86 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Afnan Shihab{" "}
+                      <span className="font-weight-light">, 28</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Zarqaa, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Elictrical Engineer - Construction and consultant field Graduated from   Al- Balqa' Applied University
+                       
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Software Developer/
+                      ASAC - LUTC
                     </div>
                   </div>
-                  <div className="mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
-                      <Col lg="9">
-                        <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
-                        </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
+                  <section style={{ borderTop: "1px #ddd" }}>
+                  <Container fluid>
+                    <Row>
+                      <Col className="mb-3">
+                        <div className='card-profile-stats d-flex justify-content-center' s>
+                          <img width="100%"
+                            align='center'
+                            src='https://github-readme-stats.vercel.app/api?username=afnanshihab&show_icons=true' alt='.
+                          .' />
+                        </div>
+
                       </Col>
+                      
                     </Row>
-                  </div>
+                  </Container>
+                </section>
+                  <section className="section pb-0 bg-gradient-info">
+            <Container fluid>
+              <Row>
+                <Col>
+                  <Card className="shadow shadow-lg--hover mt-5 mb-6" >
+                    <CardBody>
+                      <div className=" px-3">
+                        <div>
+                          <h4 className="display-1 text-info">About Me </h4>
+                          <p className=" text-black">
+                           I am electrical engineer graduated in 2015 but now especially in this year 2021 I chose to began with programing to get my goal in this field I had a small background in the programming in general .. So Im here to improve myself and I will keep trying to became a professional developer  .
+                          </p>
+
+                        </div>
+                        <div className="pl-4">
+
+                          <h5 className="title text-info">
+                            My Skills
+                          </h5>
+                          <p>
+                            <ul>
+                              <li> C++</li>
+                              <li> JavaScript</li>
+                              <li> Html</li>
+                              <li> CSS</li>
+                              <li> ReactJs</li>
+                              <li> Bootstrap</li>
+                            </ul>
+                          </p>
+                          <Button
+                            className="info text-info"
+                            href="https://docs.google.com/document/d/1-vmjTSIl2IZ_KNysKxymjo0K8F4pB6Sgak5Tv6Ea7Xk/edit?usp=sharing"
+                            target="_blank"
+                          >
+                            Resume
+                          </Button>
+                        </div>
+                      </div>
+                    </CardBody>
+                  </Card> </Col>
+                
+              </Row>
+
+
+            </Container>
+            </section>
                 </div>
               </Card>
             </Container>

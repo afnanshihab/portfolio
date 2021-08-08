@@ -12,6 +12,49 @@ Deployed site  : https://first-victory.netlify.app/
 
 
 
+Time Estimate
+
+I didnt add the starting and ending time because of breaks.
+
+### Number and name of feature : Deploy
+
+Estimate of time needed to complete: one hour
+
+
+Actual time needed to complete: 2 hours
+
+### Number and name of feature : Profile Page
+
+Estimate of time needed to complete: 2 hours
+
+
+
+Actual time needed to complete: 4 hours 
+
+### Number and name of feature : Nav, Header and Footer
+
+Estimate of time needed to complete: 3 hours
+
+
+
+Actual time needed to complete: 4 hours 
+
+### Number and name of feature : Portfolio Page
+
+Estimate of time needed to complete: 3 hours
+
+Actual time needed to complete: 4 hours
+
+### Number and name of feature : Personalize
+
+Estimate of time needed to complete: 3 hours
+
+
+
+Actual time needed to complete: 5 hours 
+
+
+
 
 
 
